@@ -1,0 +1,15 @@
+C:\Users\mauri\Downloads\NotOneDrive\EserciziGIT\csharp-oop-shop\CSharpShop\CSharpShop\obj\Debug\net6.0\CSharpShop.csproj.AssemblyReference.cache
+C:\Users\mauri\Downloads\NotOneDrive\EserciziGIT\csharp-oop-shop\CSharpShop\CSharpShop\obj\Debug\net6.0\CSharpShop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mauri\Downloads\NotOneDrive\EserciziGIT\csharp-oop-shop\CSharpShop\CSharpShop\obj\Debug\net6.0\CSharpShop.AssemblyInfoInputs.cache
+C:\Users\mauri\Downloads\NotOneDrive\EserciziGIT\csharp-oop-shop\CSharpShop\CSharpShop\obj\Debug\net6.0\CSharpShop.AssemblyInfo.cs
+C:\Users\mauri\Downloads\NotOneDrive\EserciziGIT\csharp-oop-shop\CSharpShop\CSharpShop\obj\Debug\net6.0\CSharpShop.csproj.CoreCompileInputs.cache
+C:\Users\mauri\Downloads\NotOneDrive\EserciziGIT\csharp-oop-shop\CSharpShop\CSharpShop\bin\Debug\net6.0\CSharpShop.exe
+C:\Users\mauri\Downloads\NotOneDrive\EserciziGIT\csharp-oop-shop\CSharpShop\CSharpShop\bin\Debug\net6.0\CSharpShop.deps.json
+C:\Users\mauri\Downloads\NotOneDrive\EserciziGIT\csharp-oop-shop\CSharpShop\CSharpShop\bin\Debug\net6.0\CSharpShop.runtimeconfig.json
+C:\Users\mauri\Downloads\NotOneDrive\EserciziGIT\csharp-oop-shop\CSharpShop\CSharpShop\bin\Debug\net6.0\CSharpShop.dll
+C:\Users\mauri\Downloads\NotOneDrive\EserciziGIT\csharp-oop-shop\CSharpShop\CSharpShop\bin\Debug\net6.0\CSharpShop.pdb
+C:\Users\mauri\Downloads\NotOneDrive\EserciziGIT\csharp-oop-shop\CSharpShop\CSharpShop\obj\Debug\net6.0\CSharpShop.dll
+C:\Users\mauri\Downloads\NotOneDrive\EserciziGIT\csharp-oop-shop\CSharpShop\CSharpShop\obj\Debug\net6.0\refint\CSharpShop.dll
+C:\Users\mauri\Downloads\NotOneDrive\EserciziGIT\csharp-oop-shop\CSharpShop\CSharpShop\obj\Debug\net6.0\CSharpShop.pdb
+C:\Users\mauri\Downloads\NotOneDrive\EserciziGIT\csharp-oop-shop\CSharpShop\CSharpShop\obj\Debug\net6.0\CSharpShop.genruntimeconfig.cache
+C:\Users\mauri\Downloads\NotOneDrive\EserciziGIT\csharp-oop-shop\CSharpShop\CSharpShop\obj\Debug\net6.0\ref\CSharpShop.dll
