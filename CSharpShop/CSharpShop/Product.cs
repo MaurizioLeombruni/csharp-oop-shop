@@ -61,6 +61,12 @@ namespace CSharpShop
             return productPriceVAT;
         }
 
+        //Ritorna un nome esteso concatenando il codice prodotto e il suo nome.
+        public string GetExtendedName()
+        {
+            return productCodeCompiled + productName;
+        }
+
         //Il prezzo totale viene calcolato moltiplicando il prezzo base per 1 + IVA. Restituisce il prezzo con il markup indicato.
         //Un casting float impedisce alla funzione di sbarellare e restituire un double.
         public float GetProductPriceTotal()
@@ -74,7 +80,7 @@ namespace CSharpShop
         //Stampa il prezzo base del prodotto.
         public void PrintBasePrice()
         {
-            Console.WriteLine("Il prezzo base del prodotto è: " + productPriceBase);
+            Console.WriteLine("Il prezzo base del prodotto è: " + productPriceBase + " euro");
         }
 
         //Stampa il prezzo totale del prodotto. L'IVA viene stampata insieme al prezzo finale, in forma percentuale.
@@ -83,7 +89,18 @@ namespace CSharpShop
             int percentVAT = (int)(productPriceVAT * 100);
             float priceTotal = GetProductPriceTotal();
 
-            Console.WriteLine("Con un'IVA del " + percentVAT + "%, il prezzo totale è:" + priceTotal);
+            Console.WriteLine("Con un'IVA del " + percentVAT + "%, il prezzo totale è: " + String.Format("{0:.00}", priceTotal) + " euro");
+        }
+
+        public void PrintProductDetails()
+        {
+            Console.WriteLine("Nome prodotto: " + GetProductName());
+            Console.WriteLine("Codice prodotto: " + GetProductCode());
+            Console.WriteLine("Nome esteso: " + GetExtendedName());
+            Console.WriteLine("Codice prodotto compilato: " + GetPaddedCode());
+            Console.WriteLine("Descrizione prodotto: " + GetProductDescription());
+            PrintBasePrice();
+            PrintPriceTotal();
         }
 
         //Questa funzione permette di modificare il codice prodotto con uno inserito dall'utente.
@@ -156,8 +173,8 @@ namespace CSharpShop
         //Genera randomicamente un integer da utilizzare come codice base.
         private static int GenerateProductCode()
         {
-            Random rnd = new Random();
-            int rndCode = rnd.Next(1, 10000);
+            Random rnd = new();
+            int rndCode = rnd.Next(1, 9999999);
 
             return rndCode;
         }
