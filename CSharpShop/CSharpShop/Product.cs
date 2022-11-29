@@ -71,8 +71,25 @@ namespace CSharpShop
             return tempPrice;
         }
 
+        //Stampa il prezzo base del prodotto.
+        public void PrintBasePrice()
+        {
+            Console.WriteLine("Il prezzo base del prodotto è: " + productPriceBase);
+        }
+
+        //Stampa il prezzo totale del prodotto. L'IVA viene stampata insieme al prezzo finale, in forma percentuale.
+        public void PrintPriceTotal()
+        {
+            int percentVAT = (int)(productPriceVAT * 100);
+            float priceTotal = GetProductPriceTotal();
+
+            Console.WriteLine("Con un'IVA del " + percentVAT + "%, il prezzo totale è:" + priceTotal);
+        }
+
         //Questa funzione permette di modificare il codice prodotto con uno inserito dall'utente.
         //L'input viene sanificato (niente 0, numeri negativi, i numeri con più di 9 cifre) per impedire il set a un codice invalido.
+        /*
+         * Mi sono accorto dopo che il codice è sola lettura lolololol
         public void SetProductCode(int num)
         {
             if(num <= 0 || num.ToString().Length > 9)
@@ -98,7 +115,7 @@ namespace CSharpShop
                 productCode = num;
                 productCodeCompiled = GeneratePaddedCode(productCode);
             }
-        }
+        } */
 
         //Le funzioni setter permettono di cambiare le proprietà del prodotto.
         //Quelle che lo richiedono fanno anche sanificazione dell'input.
